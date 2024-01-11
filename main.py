@@ -1,12 +1,8 @@
 from pytube import YouTube
 from pathlib import Path
-import colorama
-from colorama import Fore
 import os
 
-colorama.init()
-
-print(Fore.GREEN + "#######################################################")
+print("#######################################################")
 print("########## YOUTUBE DOWNLOADER (VIDEO/MUSICA) ##########")
 print("#######       Criado por Matheus Tiburcio       #######")
 print("#######################################################")
@@ -47,8 +43,8 @@ def fazerDownload(url, type):
 
 def menu():
     
-    print(Fore.CYAN + 'Escolha uma opção abaixo')
-    print(Fore.WHITE + '[1] Baixar música (MP3)')
+    print('Escolha uma opção abaixo')
+    print('[1] Baixar música (MP3)')
     print('[2] Baixar vídeo (720P)')
     print('[3] Sair')
     print('')
