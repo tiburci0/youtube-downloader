@@ -1,4 +1,4 @@
-# Youtube Downloader - V1.0
+# Youtube Downloader - v1.0
  - Baixe músicas e vídeos de forma rápida e fácil!
 
 # Como utilizar?

@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 
 print("#######################################################")
-print("########## YOUTUBE DOWNLOADER (VIDEO/MUSICA) ##########")
+print("#################  YOUTUBE DOWNLOADER  ################")
 print("#######       Criado por Matheus Tiburcio       #######")
 print("#######################################################")
 print('')
