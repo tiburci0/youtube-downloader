@@ -4,3 +4,5 @@
 # Como utilizar?
 - Execute o "YouTube Downloader v1.0" localizado na pasta "bin"
 
+# Sobre o executável
+- O "YouTube Downloader v1.0.exe" foi criado utilizando a lib "PYInstaller" 
