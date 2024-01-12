@@ -14,6 +14,7 @@ def fazerDownload(url, type):
     if(type == 'audio'):
       yt = YouTube(url)
       ys = yt.streams.filter(only_audio=True).first()
+      print('Baixando...')
       out_file = ys.download(path)
 
       # Converter MP4 em MP3
@@ -31,6 +32,7 @@ def fazerDownload(url, type):
     elif(type == 'video'):
       yt = YouTube(url)
       ys = yt.streams.filter(res="720p").first()
+      print('Baixando...')
       ys.download(path)
       
 
